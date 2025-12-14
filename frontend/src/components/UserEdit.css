@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Roboto:wght@400;500&display=swap");
+
+button {
+  border-radius: 10px;
+}
+
+/* OVERLAY */
+.user-edit-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 9999;
+  display: flex;
+  justify-content: flex-end;
+  backdrop-filter: blur(2px);
+}
+
+/* SIDEBAR */
+.user-edit {
+  width: 340px;
+  height: 100%;
+  background: #fff;
+  padding: 24px;
+  box-shadow: -6px 0 25px rgba(0, 0, 0, 0.25);
+  animation: slideIn 0.35s ease;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+
+/* SLIDE */
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* HEADER */
+.user-edit h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #2c2c2c;
+}
+
+/* AVATAR */
+.avatar-preview {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px;
+  border: 3px solid #419156;
+}
+
+/* INPUTS */
+.user-edit input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 0.95rem;
+  transition: 0.25s;
+}
+
+.user-edit input:focus {
+  outline: none;
+  border-color: #419156;
+  box-shadow: 0 0 0 2px rgba(65, 145, 86, 0.2);
+}
+
+/* BUTTONS */
+/* Buttons except close-x */
+.user-edit button:not(.close-x) {
+  border: none;
+  width: 100%;
+  padding: 12px;
+}
+
+
+/* SAVE */
+.user-edit button:not(.logout-btn):not(.close-x) {
+  border: non;
+  background: #419156;
+  color: #fff;
+}
+
+.user-edit button:not(.logout-btn):not(.close-x):hover {
+  background: #2f7b44;
+}
+
+/* LOGOUT */
+.logout-btn {
+  margin-top: 10px;
+  border: none;
+  background: #e74c3c;
+  color: #fff;
+}
+
+.logout-btn:hover {
+  background: #c0392b;
+}
+
+/* ❌ CLOSE */
+.close-x {
+  all: unset;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+
+  width: 28px;
+  height: 28px;
+
+  border-radius: 50%;
+  background: #e74c3c;
+  color: #fff;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.close-x:hover {
+  background: #c0392b;
+  transform: scale(1.05);
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+  .user-edit {
+    width: 100%;
+  }
+}

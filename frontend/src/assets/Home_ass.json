@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "title": "God's Own Country",
+        "image": "https://th.bing.com/th/id/OIP.6QOQVjYuOHJkKVzdYV7KoQHaE8?w=288&h=192&c=7&r=0&o=5&dpr=1.2&pid=1.7",
+        "description": "Kerala: The Paradise of India – Explore lush backwaters, golden beaches, and vibrant culture!"
+    },
+    {
+        "id": "2",
+        "title": "The Nilgiris",
+        "image": "https://th.bing.com/th/id/OIP.c6SwfNg2z-mEHSwIMCXgxgAAAA?rs=1&pid=ImgDetMain",
+        "description": "Nilgiris: The Blue Mountains – Discover serene landscapes, lush tea gardens, and cool, misty heights!"
+    },
+    {
+        "id": "3",
+        "title": "The Golden Triangle",
+        "image": "https://th.bing.com/th/id/OIP.dTwe9BMN_ZRwHqRZL-V_nAHaE8?w=228&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7",
+        "description": "Delhi, Agra, Jaipur: Experience the essence of India's rich history and vibrant culture!"
+    },
+    {
+        "id": "4",
+        "title": "Rajasthan Royalty",
+        "image": "https://img.veenaworld.com/wp-content/uploads/2018/08/Hawa-Mahal_Jaipur.jpg",
+        "description": "Rajasthan: Embrace the regal charm of magnificent palaces, historic forts, and desert landscapes!"
+    },
+    {
+        "id": "5",
+        "title": "Goa Getaway",
+        "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/10/18/16/goa-overview.jpg?width=1200&auto=webp&quality=75",
+        "description": "Goa: Relax on sun-kissed beaches, enjoy vibrant nightlife, and savor delicious seafood!"
+    },
+    {
+        "id": "6",
+        "title": "Himalayan Retreat",
+        "image": "https://th.bing.com/th/id/OIP.JH9w1GB7mt7SX94y0v8FfQHaFW?w=231&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7",
+        "description": "Himalayas: Discover breathtaking mountain vistas, serene monasteries, and invigorating treks!"
+    }
+]
